@@ -13,7 +13,7 @@ public class bt1 {
         author = format(author.trim().replaceAll("\\s+" , " "));
         System.out.println("[" + name + "] " + " - "+ "Tác giả: "+author);
     }
-    private static String format (String author){
+     static String format (String author){
         String[] words = author.split(" ");
         StringBuilder formatted = new StringBuilder();
         for (String word : words) {
