@@ -6,8 +6,6 @@ public abstract class Employee {
     public Employee(String name) {
         this.name = name;
     }
-
-    // Sửa lại tên phương thức cho đúng
     public abstract double calculateSalary();
 
     @Override
