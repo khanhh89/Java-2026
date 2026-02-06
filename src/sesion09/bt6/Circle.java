@@ -4,7 +4,7 @@ class Circle extends Shape {
     public Circle(double radius) {
         this.radius = radius;
     }
-    public Circle(int diameter) { // nạp chồng constructor
+    public Circle(int diameter) {
         this.radius = diameter / 2.0;
     }
     public double area(double scale) {
