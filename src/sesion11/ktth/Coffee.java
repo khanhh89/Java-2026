@@ -18,7 +18,6 @@ public class Coffee extends Drink implements IMixable {
     }
     @Override
     void displayInfo() {
-        // TODO Auto-generated method stub
         super.displayInfo();
         System.out.println("Có sữa: " + hasMilk);
         System.out.println("Giá bán: " + calculatePrice());
@@ -31,5 +30,5 @@ public class Coffee extends Drink implements IMixable {
             System.out.println("Đen đá");
         }
     }
-    
+
 }
