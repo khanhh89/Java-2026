@@ -1,4 +1,4 @@
-package session08.MiniPrj;
+package sesion08.MiniPrj;
 
 import java.util.Scanner;
 
