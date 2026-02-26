@@ -20,6 +20,6 @@ public class ChuanHoaDuLieu {
             }
         }
         System.out.println("Chuỗi sau khi chuẩn hóa: " + result.toString().trim());
-    
+        System.out.println("\n");
     }
 }
